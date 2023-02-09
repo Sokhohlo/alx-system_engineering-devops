@@ -1,4 +1,1 @@
- #!/bin/bash  
-  cd - 
- 
-ls -cd -
+#!/bin/bash
