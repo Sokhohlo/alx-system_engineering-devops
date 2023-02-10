@@ -1,1 +1,1 @@
-welcome
+Magic school
