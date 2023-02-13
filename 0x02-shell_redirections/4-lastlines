@@ -1,2 +1,2 @@
 #!/bin/bash
-tail /etc/bas
+tail /etc/bash
