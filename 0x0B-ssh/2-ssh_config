@@ -1,5 +1,11 @@
-Host *  
-	HostName 3.94.181.142
-	User ubuntu
-	IdentityFile ~/.ssh/school
-	PasswordAuthentication no
+#!/usr/bin/envy bash
+
+#SSH Client Configuration
+Host *
+
+PasswordAuthentication no
+IdentityFile ~/.ssh/school
+SendEnv LANG LC_*
+HashknownHosts yes
+GSSAPIAuthentication yes
+GSSAPIDelegateCredintials no
